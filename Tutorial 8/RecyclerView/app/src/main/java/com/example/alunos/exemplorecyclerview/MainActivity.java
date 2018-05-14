@@ -23,12 +23,12 @@ public class MainActivity extends AppCompatActivity{
         rview = findViewById(R.id.recyclerView);
         listaLivros = new ArrayList<>();
 
-        listaLivros.add(new Livro ("Harry Potter e a Pedra Filosofal", "J. K. Rowling",
-                "Fantasia sobre um mundo onde bruxos e pessoas normais coexistem"));
-        listaLivros.add(new Livro ("Prelúdio de Sangue", "Jean Plaudy",
-                "Romance narrativo sobre a família Plantageneta, a que mais durou no trono inglês"));
-        listaLivros.add(new Livro ("O Cortiço", "Aluíso Azevedo",
-                "Naturalismo no Brasil, em especial no Rio de Janeiro"));
+        listaLivros.add(new Livro ("Capitães da Areia", "Jorge Amado",
+                "Grupo de menores abandonados que crescem nas ruas..."));
+        listaLivros.add(new Livro ("Jogos Vorazes", "Suzanne Collins",
+                "Distopia de jovens pobres que lutam até a morte em um jogo..."));
+        listaLivros.add(new Livro ("Revolução dos Bichos", "George Orwell",
+                "Romance satírico no qual os animais de uma granja decidem fazer uma revolução..."));
 
         rview.setAdapter(new LivroAdapter(listaLivros, this));
         RecyclerView.LayoutManager layout = new LinearLayoutManager(this,
