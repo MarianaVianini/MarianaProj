@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Toolbar</string>
+    <string name="action_settings">Configurações</string>
+    <string name="action_view_items">Visualizar</string>
+    <string name="action_new">Adicionar</string>
+    <string name="logo_desc">App logo</string>
+</resources>
